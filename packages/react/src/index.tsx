@@ -1,4 +1,3 @@
-import { colors } from '@ignite-ui/tokens'
 import { styled } from './styles'
 
 const Button = styled('button', {
