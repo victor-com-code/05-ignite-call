@@ -2,16 +2,17 @@
   "name": "@ignite-ui/docs",
   "version": "0.0.0",
   "type": "module",
-  "license":"MIT",
+  "license": "MIT",
   "scripts": {
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "dev": "storybook dev -p 6006",
     "build": "storybook build"
   },
   "dependencies": {
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/eslint-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
