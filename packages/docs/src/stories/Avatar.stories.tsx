@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/victor-com-code.png',
     alt: 'Victor Eduardo',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
